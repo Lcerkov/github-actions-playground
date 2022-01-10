@@ -556,7 +556,36 @@ software:
     references:
       - ''
     last_updated: '2022-01-07T17:30:38+00:00'
-  - vendor: Thales
+ - vendor: Test Vendor
+  product: Test Product
+  cves:
+    cve-2021-4104:
+      investigated: ''
+      affected_versions: []
+      fixed_versions: []
+      unaffected_versions: []
+    cve-2021-44228:
+      investigated: ''
+      affected_versions: [1.0]
+      fixed_versions: [2.0]
+      unaffected_versions: [3.0]
+    cve-2021-45046:
+      investigated: ''
+      affected_versions: []
+      fixed_versions: []
+      unaffected_versions: []
+    cve-2021-45105:
+      investigated: ''
+      affected_versions: []
+      fixed_versions: []
+      unaffected_versions: []
+  vendor_links:
+  - 'https://www.google.com/'
+  notes: 'Test notes here.'
+  references:
+  - ''
+  last_updated: '1/10/2022'
+ - vendor: Thales
     product: CipherTrust Application Data Protection (CADP) – CAPI.net & Net Core
     cves:
       cve-2021-4104:
